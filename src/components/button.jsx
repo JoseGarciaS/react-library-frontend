@@ -5,7 +5,7 @@ import React from "react"
 
 const button = (props) => {
     return (
-        <Button onClick={<Link href={"/blankPage"}} />Login</Button>
+        <Button onClick={<Link href={"/blankPage"}></Link>} >Login</Button>
       );
 };
 
