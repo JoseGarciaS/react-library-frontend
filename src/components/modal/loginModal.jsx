@@ -1,6 +1,7 @@
 'use client'
 import  Button from '@/components/button'
 import BodyLogin from '@/components/bodyLogin'
+import React from "react"
 
 const centerStyles = {
   position: 'absolute',

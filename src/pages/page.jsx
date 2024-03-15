@@ -1,11 +1,15 @@
 'use client'
 
 import LoginModal from "@/components/modal/loginModal";
+import React from "react"
 
-export default function Login() {
+ function page() {
   
   return (
+    <div>
       <LoginModal />
+    </div>
   );
 }
 
+export default page;
